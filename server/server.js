@@ -9,6 +9,8 @@ const department = require("./routes/departementRoute");
 const student = require("./routes/studentRoute");
 
 const app = express();
+
+//port
 const port = 5000;
 
 app.use(cors());
